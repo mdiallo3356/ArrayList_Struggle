@@ -20,6 +20,14 @@ public class Deck {
 	}
 	public void setDealt(ArrayList<Card> dealt) {
 		this.dealt = dealt;
+	public boolean isEmpty()
+	{
+		if(Undealt.size() == 0)
+			{
+				return true;
+			}
+			else return false;
+	}
 	}
 
 	
