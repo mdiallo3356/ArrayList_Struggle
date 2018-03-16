@@ -9,6 +9,14 @@ public class Card {
 		this.suit = suit;
 		this.pointValue = pointValue;
 	}
+	public boolean equals(Card Othercard)
+	{
+		if(Card.pointValue() == Othercard.pointValue())
+		{
+			return true;
+		}
+		else return false;
+	}
 	public String Getrank()
 	{
 		return rank;
